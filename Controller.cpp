@@ -10,7 +10,7 @@
 #include <fstream>
 #include <vector>
 
-#include "brinkmwjTrends.h" //You will need to change this to match your own class
+#include "mullinghTrends.h" //You will need to change this to match your own class
 
 /*
  * processFile should:
@@ -20,7 +20,7 @@
  *  4) Use getNthPopular and getCount to print out the total results in fname + ".out"
  */
 int processFile(const char* fname){
-	Trends* tr = new brinkmwjTrends(); //You will need to change this to match your own class!
+	Trends* tr = new mullinghTrends(); //You will need to change this to match your own class!
 
 	//First, read in the file
 	// I'm not doing much error checking here, because I am a bad person
